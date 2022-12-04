@@ -2,6 +2,6 @@
 
 FROM registry.access.redhat.com/ubi7:latest
 
-# CMD ["/bin/bash", "-c", "sleep infinity"]
-CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
-#changed line 5 to line 6
+CMD ["/bin/bash", "-c", "sleep infinity"]
+# CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
+#Dec 4 went back to original
